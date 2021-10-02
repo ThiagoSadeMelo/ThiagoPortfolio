@@ -1,0 +1,243 @@
+/*CLASSES AUXILIARES*/
+body{
+    font-family: 'Lato';
+    background: #000000;
+    color: #F0F8FF;
+}
+
+/*CLASSES DIVS*/
+.content-site{
+    margin-left: 180px;
+}
+
+.navabar{
+    background: #383838 !important;
+    color: #B8860B !important;
+}
+
+.sidebar{
+    position: fixed;
+    display: block;
+    background: #383838;
+    width: 150px;
+    height: 100vh;
+}
+
+.sidebar a, .sidebar a.active, .logo{
+    background: #383838;
+    text-align: center;
+    font-weight: 700;
+    border: 0px;
+}
+
+.sidebar a:not(.active){
+    color: white;
+}
+
+.sidebar a.active{
+    color: #B8860B;
+}
+
+.sidebar .logo{
+    border-bottom: 4px solid white;
+}
+
+.sidebar h1{
+    font-weight: 900;
+}
+
+.sidebar a:hover{
+    background: #8B8989;
+}
+
+
+
+.jumbotron{
+    background-color: #101111;
+}
+
+.jumbotron img{
+    width:250px; 
+    height:250px;
+    border-radius: 125px;
+}
+
+.card{
+    text-align: center;
+    background: #101111;
+    margin-bottom: 20px;
+}
+
+.card:hover{
+    border: 1px solid #B8860B;
+}
+
+.card h6{
+    color: #B8860B !important;
+}
+
+.h1{
+    border-bottom: 1px solid #B8860B;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.my-location{
+    color: #B8860B;
+    font-weight: 300;
+}
+
+.media-body p{
+    margin-bottom: 0.5px;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+.jumbotron .desenvolvedor{
+    color: #B8860B;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.sub-title-about-me{
+    margin-top: 12px;
+}
+
+/*TEMELINE STYLE*/
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+ul.timeline > li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+ul.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #22c0e8;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+ul.timeline a{
+    color: #B8860B;
+}
+
+.col-md-10 span{
+    padding-left: 20px;
+}
+
+.progress{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.progress-style{
+    margin-bottom: 50px;
+}
+
+.progress-bar{
+    background-color: #B8860B;
+    text-align: right;
+}
+
+.tab-pane{
+    padding-top:50px;
+}
+
+.col-md-6 .h3{
+    text-decoration: underline #B8860B;
+}
+
+#jumbo{
+    margin-top: 20px;
+    color: #B8860B;
+}
+
+.padding-element{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navbar{
+    display: none;
+}
+
+@media (min-width: 950px){
+    .padding-element{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+@media  screen and (max-width: 800px) {
+    #list-tab{
+        display: none;
+    }
+
+    .navbar{
+        display: block;
+    }
+
+    .navbar-toggler{
+        float: right;
+    }
+    
+    .bg-light , .navbar-brand, .nav-link,.navbar-light .navbar-toggler{
+        background: #383838 !important;
+        color: #B8860B !important;
+        border-color: #B8860B;
+    }
+
+    .h1{
+        text-align: center !important;
+    }
+
+    .content-site{
+        margin-left: 0px;
+    }
+
+    .media{
+        display: block;
+        text-align: center;
+    }
+
+    .media h2, h6{
+        text-align: center;
+    }
+
+
+
+}
+
+@media screen and (max-width: 576px){
+    .jumbotron{
+        padding: 4rem 2rem;
+    }
+}
+
+@media  screen and (max-width: 768px) {
+
+    .row{
+        display: block;
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
